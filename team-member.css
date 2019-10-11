@@ -10,12 +10,20 @@
 }
 
 .left {
+  border: 5px;
+  border-color: #ff4a4a;
+  border: solid 2px #a8a7a7;
+  border-radius: 15px;
+  margin: 10px;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   float: left;
 }
 
 .left input {
   display: block;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .left h3 {
@@ -24,13 +32,14 @@
 
 .left .left-main {
   border-color: #a8a7a7;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .left .left-main input {
   width: 350px;
   height: 30px;
   margin: 12px;
+  border-radius: 10px;
 }
 
 .left .left-main p {
@@ -61,26 +70,25 @@
 }
 
 .left .left-main .final {
-  height: 200px;
+  height: 130px;
 }
 
 .left .left-main button {
   color: #f6f6f6;
   font-size: 18px;
   background: #2d89e6;
-  width: 350px;
+  width: 400px;
   height: 50px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin: 12px;
   display: block;
 }
 
 .right {
   float: right;
-  width: 900px;
+  width: 800px;
   height: 600px;
-  margin-right: 40px;
+  margin-right: 90px;
   background: #a8a7a7;
 }
 
@@ -94,7 +102,21 @@
 
 .right .first-right {
   height: 10xp;
-  width: 15px;
+  width: 20px;
+}
+
+.right .second-right {
+  height: 10xp;
+  width: 40px;
+}
+
+.right .third-right {
+  height: 10xp;
+  width: 40px;
+}
+
+.right fourth-right {
+  margin-right: 20px;
 }
 
 .right .design {
@@ -109,6 +131,11 @@
   border-bottom-right-radius: 20px;
   display: inline;
   margin-left: 0px;
+  width: 600px;
+}
+
+.right .nav-left label {
+  margin-left: 30px;
 }
 
 .right .nav-right {
@@ -122,7 +149,15 @@
 
 .right .nav-right .membernumber {
   background: #2d89e6;
-  margin: 10px;
   margin-left: 0px;
+  margin: 0px;
+  margin-top: 25px;
+  margin-left: 700px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right .membernumber {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=team-member.css.map */
