@@ -13,7 +13,7 @@
   border: 5px;
   border-color: #ff4a4a;
   border: solid 2px #a8a7a7;
-  border-radius: 15px;
+  border-radius: 25px;
   margin: 10px;
   margin-right: 0px;
   margin-top: 20px;
@@ -32,14 +32,13 @@
 
 .left .left-main {
   border-color: #a8a7a7;
-  border-radius: 30px;
 }
 
 .left .left-main input {
   width: 350px;
-  height: 30px;
+  height: 40px;
   margin: 12px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .left .left-main p {
@@ -56,6 +55,7 @@
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-right: 2px;
+  border: #a1a1a1 solid 2px;
 }
 
 .left .left-main .add2 {
@@ -67,6 +67,7 @@
   border-radius: 0px;
   border-color: #a8a7a7;
   margin-left: 2px;
+  border: #a1a1a1 solid 2px;
 }
 
 .left .left-main .final {
@@ -79,8 +80,9 @@
   background: #2d89e6;
   width: 400px;
   height: 50px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 0px;
   display: block;
 }
 
