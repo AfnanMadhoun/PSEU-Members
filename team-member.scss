@@ -1,23 +1,88 @@
 
 $headcolor : #2d89e6;
 $iconcolor : #ff4a4a;
-$bordercolor: #e5e5e5;
+$bordercolor: #a8a7a7;
 $contentbg: #f6f6f6; 
 .head{
     background: $headcolor;
     margin: 0px;
+    .head1{
+        margin: 0px;
+        border: 0px;
+        text-align: center;
+    }
     
 } 
 .left{
     float: left;
      input{
         display: block;
+        border-radius: 5px;
+    }
+    h3{
+        text-align: center;
+    }
+    
+    .left-main{
+        border-color:$bordercolor;
+        border-radius: 5px;
+        input{
+            width: 350px;
+            height: 30px;
+            margin: 12px;
+           
+
+        }
+        p{
+            display: inline;
+            font-size: 12px;
+        }
+        .add1{
+            display: inline;
+            width: 15px;
+            height: 12px;
+            border-radius: 0px;
+            border-color: $bordercolor;
+            box-shadow: none;
+            margin-right: 2px;
+           
+        }
+        .add2{
+            display: inline;
+            box-shadow: none;
+
+            width: 60px;
+            height: 15px;
+            border-radius: 0px;
+            border-color: $bordercolor;
+            margin-left: 2px;
+            
+
+           
+        }
+        .final{
+            height: 200px;
+        }
+        button{
+            color: $contentbg;
+            font-size: 18px;
+            background: $headcolor;
+            width: 350px;
+            height: 50px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin: 12px;
+            display: block;
+
+        }
+       
     }
 }
 
 
 .right{
     float: right;
+    margin: 15px;
     .nav-left{
         float: left;
     }

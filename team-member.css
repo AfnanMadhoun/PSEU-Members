@@ -3,16 +3,82 @@
   margin: 0px;
 }
 
+.head .head1 {
+  margin: 0px;
+  border: 0px;
+  text-align: center;
+}
+
 .left {
   float: left;
 }
 
 .left input {
   display: block;
+  border-radius: 5px;
+}
+
+.left h3 {
+  text-align: center;
+}
+
+.left .left-main {
+  border-color: #a8a7a7;
+  border-radius: 5px;
+}
+
+.left .left-main input {
+  width: 350px;
+  height: 30px;
+  margin: 12px;
+}
+
+.left .left-main p {
+  display: inline;
+  font-size: 12px;
+}
+
+.left .left-main .add1 {
+  display: inline;
+  width: 15px;
+  height: 12px;
+  border-radius: 0px;
+  border-color: #a8a7a7;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-right: 2px;
+}
+
+.left .left-main .add2 {
+  display: inline;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 60px;
+  height: 15px;
+  border-radius: 0px;
+  border-color: #a8a7a7;
+  margin-left: 2px;
+}
+
+.left .left-main .final {
+  height: 200px;
+}
+
+.left .left-main button {
+  color: #f6f6f6;
+  font-size: 18px;
+  background: #2d89e6;
+  width: 350px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 12px;
+  display: block;
 }
 
 .right {
   float: right;
+  margin: 15px;
 }
 
 .right .nav-left {
