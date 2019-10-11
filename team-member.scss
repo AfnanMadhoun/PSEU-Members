@@ -1,0 +1,24 @@
+
+$headcolor : #2d89e6;
+$iconcolor : #ff4a4a;
+$bordercolor: #e5e5e5;
+$contentbg: #f6f6f6; 
+.head{
+    background: $headcolor;
+    margin: 0px;
+    
+} 
+.left{
+    float: left;
+     input{
+        display: block;
+    }
+}
+
+
+.right{
+    float: right;
+    .nav-left{
+        float: left;
+    }
+}

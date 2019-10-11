@@ -1,0 +1,21 @@
+.head {
+  background: #2d89e6;
+  margin: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.left input {
+  display: block;
+}
+
+.right {
+  float: right;
+}
+
+.right .nav-left {
+  float: left;
+}
+/*# sourceMappingURL=team-member.css.map */
