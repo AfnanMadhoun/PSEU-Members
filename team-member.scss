@@ -82,8 +82,63 @@ $contentbg: #f6f6f6;
 
 .right{
     float: right;
-    margin: 15px;
-    .nav-left{
-        float: left;
+  width: 900px;
+    height: 600px;
+    margin-right: 40px;
+    background: #a8a7a7;
+    .nav-right{
+    background: $headcolor;
+    display: inline;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 30px;
+   
+   }
+    
+    
+    .first-right{
+        height: 10xp;
+        width: 15px;
+
     }
+    .design{
+margin: 10px;
+
+
+}
+.nav-left{
+    float: left;
+    background: $headcolor;
+    margin: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline;
+    margin-left: 0px;
+
+}
+
+.nav-right{
+   
+    background: $headcolor;
+   
+
+   
+ 
+    margin: 30px;
+
+    display: inline;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 0px;
+    
+    .membernumber{
+        background: $headcolor;
+        margin: 10px;
+        margin-left: 0px;
+        
+
+    }
+    
+   }
+
 }

@@ -78,10 +78,51 @@
 
 .right {
   float: right;
-  margin: 15px;
+  width: 900px;
+  height: 600px;
+  margin-right: 40px;
+  background: #a8a7a7;
+}
+
+.right .nav-right {
+  background: #2d89e6;
+  display: inline;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 30px;
+}
+
+.right .first-right {
+  height: 10xp;
+  width: 15px;
+}
+
+.right .design {
+  margin: 10px;
 }
 
 .right .nav-left {
   float: left;
+  background: #2d89e6;
+  margin: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: inline;
+  margin-left: 0px;
+}
+
+.right .nav-right {
+  background: #2d89e6;
+  margin: 30px;
+  display: inline;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: 0px;
+}
+
+.right .nav-right .membernumber {
+  background: #2d89e6;
+  margin: 10px;
+  margin-left: 0px;
 }
 /*# sourceMappingURL=team-member.css.map */
