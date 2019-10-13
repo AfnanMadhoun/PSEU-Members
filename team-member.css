@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .head {
   background: #2d89e6;
   margin: 0px;
@@ -7,17 +12,19 @@
   margin: 0px;
   border: 0px;
   text-align: center;
+  padding: 10px;
 }
 
 .left {
   border: 5px;
   border-color: #ff4a4a;
-  border: solid 2px #a8a7a7;
+  border: solid 1.2px #a8a7a7;
   border-radius: 25px;
   margin: 10px;
   margin-right: 0px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 40px;
+  margin-left: 34px;
   float: left;
 }
 
@@ -72,6 +79,7 @@
 
 .left .left-main .final {
   height: 130px;
+  overflow: scroll;
 }
 
 .left .left-main button {
@@ -92,6 +100,7 @@
   height: 600px;
   margin-right: 90px;
   background: #a8a7a7;
+  overflow: scroll;
 }
 
 .right .nav-right {
@@ -161,5 +170,9 @@
 
 .right .membernumber {
   margin-top: 20px;
+}
+
+.right .person-content {
+  padding: 14px;
 }
 /*# sourceMappingURL=team-member.css.map */

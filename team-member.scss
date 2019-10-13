@@ -3,6 +3,13 @@ $headcolor : #2d89e6;
 $iconcolor : #ff4a4a;
 $bordercolor: #a8a7a7;
 $contentbg: #f6f6f6; 
+body{
+    margin : 0px;
+    padding: 0px;
+
+
+
+}
 .head{
     background: $headcolor;
     margin: 0px;
@@ -10,18 +17,21 @@ $contentbg: #f6f6f6;
         margin: 0px;
         border: 0px;
         text-align: center;
+        padding: 10px;
     }
     
 } 
 .left{
     border: 5px;
     border-color: $iconcolor;
-    border: solid 2px $bordercolor;
+    border: solid 1.2px $bordercolor;
     border-radius: 25px;
     margin: 10px;
     margin-right: 0px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
+    margin-left: 34px;
+
 
     float: left;
      input{
@@ -40,6 +50,7 @@ $contentbg: #f6f6f6;
             height: 40px;
             margin: 12px;
             border-radius: 15px;
+           
         }
         p{
             display: inline;
@@ -71,6 +82,7 @@ $contentbg: #f6f6f6;
         }
         .final{
             height:130px;
+            overflow: scroll;
         }
         button{
             color: $contentbg;
@@ -95,12 +107,14 @@ $contentbg: #f6f6f6;
     height: 600px;
     margin-right: 90px;
     background: #a8a7a7;
+    overflow: scroll;
     .nav-right{
     background: $headcolor;
     display: inline;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 30px;
+    
 
    
    }
@@ -176,4 +190,9 @@ margin: 10px;
        margin-top: 20px;
    }
 
+
+   .person-content{
+       padding: 14px;
+
+   }
 }
