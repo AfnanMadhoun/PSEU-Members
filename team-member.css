@@ -158,11 +158,12 @@ body {
 }
 
 .right .nav-right .membernumber {
+  padding: 10px;
   background: #2d89e6;
   margin-left: 0px;
   margin: 0px;
-  margin-top: 25px;
-  margin-left: 700px;
+  margin-top: 15px;
+  margin-left: 680px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }

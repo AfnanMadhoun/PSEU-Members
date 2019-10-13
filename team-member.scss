@@ -33,6 +33,7 @@ body{
     margin-left: 34px;
 
 
+
     float: left;
      input{
         display: block;
@@ -147,6 +148,7 @@ margin: 10px;
 
 }
 .nav-left{
+    
     float: left;
     background: $headcolor;
     margin: 30px;
@@ -162,6 +164,8 @@ margin: 10px;
 }
 
 .nav-right{
+    
+
    
     background: $headcolor;
     margin: 30px;
@@ -171,15 +175,16 @@ margin: 10px;
     margin-right: 0px;
     // height: 30px;
     .membernumber{
+        padding: 10px;
         background: $headcolor;
         // text-justify: unset;
 
      
         margin-left: 0px;
         margin: 0px;
-      margin-top: 25px;
+      margin-top: 15px;
 
-      margin-left: 700px;
+      margin-left: 680px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
         
