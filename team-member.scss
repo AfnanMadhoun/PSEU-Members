@@ -45,6 +45,7 @@ body{
     
     .left-main{
         border-color:$bordercolor;
+        // padding-inline-start: 10px;
       
         input{
             width: 350px;
@@ -98,7 +99,10 @@ body{
             display: block;
 
         }
-       
+        .placeholder{
+            padding-inline-start: 10px;
+        }
+      
     }
 }
 

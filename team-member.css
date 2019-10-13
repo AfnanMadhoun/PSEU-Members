@@ -93,6 +93,11 @@ body {
   display: block;
 }
 
+.left .left-main .placeholder {
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+}
+
 .right {
   float: right;
   width: 800px;
