@@ -16,15 +16,15 @@ body {
 }
 
 .left {
-  border: 5px;
+  border: 1%;
   border-color: #ff4a4a;
   border: solid 1.2px #a8a7a7;
   border-radius: 25px;
-  margin: 10px;
+  margin: 15%;
   margin-right: 0px;
   margin-top: 30px;
   margin-bottom: 40px;
-  margin-left: 34px;
+  margin-left: 85px;
   float: left;
 }
 
@@ -100,9 +100,15 @@ body {
 
 .right {
   float: right;
+<<<<<<< HEAD
   width: 801px;
   height: 600px;
   margin-right: 90px;
+=======
+  width: 63%;
+  height: 900px;
+  margin-right: 190px;
+>>>>>>> 0e84a178da56cf852370ba2916940639d3249ea0
   background: #a8a7a7;
   overflow: scroll;
 }
@@ -168,7 +174,7 @@ body {
   margin-left: 0px;
   margin: 0px;
   margin-top: 15px;
-  margin-left: 680px;
+  margin-left: 1080px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
