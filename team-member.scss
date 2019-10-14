@@ -6,6 +6,9 @@ $contentbg: #f6f6f6;
 body{
     margin : 0px;
     padding: 0px;
+
+
+
 }
 .head{
     background: $headcolor;
@@ -27,8 +30,10 @@ body{
     margin-right: 0px;
     margin-top: 30px;
     margin-bottom: 40px;
-   
-    margin-left: 85px;
+    margin-left: 34px;
+
+
+
     float: left;
      input{
         display: block;
@@ -62,6 +67,7 @@ body{
             box-shadow: none;
             margin-right: 2px;
             border:  #a1a1a1 solid 2px;
+           
         }
         .add2{
             display: inline;
@@ -72,9 +78,14 @@ body{
             border-color: $bordercolor;
             margin-left: 2px;
             border:  #a1a1a1 solid 2px;
+            
+
+           
         }
         .final{
             height:130px;
+           
+
         }
         button{
             color: $contentbg;
@@ -94,18 +105,13 @@ body{
       
     }
 }
+
+
 .right{
     float: right;
-<<<<<<< HEAD
-  width: 801px;
+  width: 800px;
     height: 600px;
     margin-right: 90px;
-=======
-  width: 63%;
-    height: 900px
-
-    margin-right: 190px;
->>>>>>> 0e84a178da56cf852370ba2916940639d3249ea0
     background: #a8a7a7;
     overflow: scroll;
     .nav-right{
@@ -114,8 +120,12 @@ body{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 30px;
+    
 
+   
    }
+    
+    
     .first-right{
         height: 10xp;
         width: 20px;
@@ -124,16 +134,22 @@ body{
     .second-right{
         height: 10xp;
         width: 40px;
+
+
     }
     .third-right{
         height: 10xp;
         width: 40px;
+
+
     }
     fourth-right{
         margin-right: 20px;
     }
     .design{
 margin: 10px;
+
+
 }
 .nav-left{
     
@@ -152,6 +168,9 @@ margin: 10px;
 }
 
 .nav-right{
+    
+
+   
     background: $headcolor;
     margin: 30px;
     display: inline;
@@ -169,17 +188,21 @@ margin: 10px;
         margin: 0px;
       margin-top: 15px;
 
-   
-      margin-left: 1080px;
+      margin-left: 680px;
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
+        
+
     }
     
    }
    .membernumber{
        margin-top: 20px;
    }
+
+
    .person-content{
        padding: 14px;
+
    }
 }
