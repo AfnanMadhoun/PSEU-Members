@@ -16,11 +16,11 @@ body {
 }
 
 .left {
-  border: 5px;
+  border: 1%;
   border-color: #ff4a4a;
   border: solid 1.2px #a8a7a7;
   border-radius: 25px;
-  margin: 10px;
+  margin: 15%;
   margin-right: 0px;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -100,7 +100,7 @@ body {
 
 .right {
   float: right;
-  width: 1200px;
+  width: 63%;
   height: 900px;
   margin-right: 190px;
   background: #a8a7a7;
