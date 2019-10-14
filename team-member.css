@@ -24,7 +24,7 @@ body {
   margin-right: 0px;
   margin-top: 30px;
   margin-bottom: 40px;
-  margin-left: 34px;
+  margin-left: 85px;
   float: left;
 }
 
@@ -100,9 +100,9 @@ body {
 
 .right {
   float: right;
-  width: 800px;
-  height: 600px;
-  margin-right: 90px;
+  width: 1200px;
+  height: 900px;
+  margin-right: 190px;
   background: #a8a7a7;
   overflow: scroll;
 }
@@ -168,7 +168,7 @@ body {
   margin-left: 0px;
   margin: 0px;
   margin-top: 15px;
-  margin-left: 680px;
+  margin-left: 1080px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
