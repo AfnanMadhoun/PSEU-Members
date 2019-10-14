@@ -48,6 +48,13 @@ body {
   border-radius: 15px;
 }
 
+.left .left-main option {
+  width: 350px;
+  height: 40px;
+  margin: 12px;
+  border-radius: 15px;
+}
+
 .left .left-main p {
   display: inline;
   font-size: 12px;
@@ -96,6 +103,22 @@ body {
 .left .left-main .placeholder {
   -webkit-padding-start: 8px;
           padding-inline-start: 8px;
+}
+
+.left .left-main #select {
+  width: 360px;
+  height: 40px;
+  margin: 12px;
+  border-radius: 15px;
+  display: block;
+}
+
+.left .left-main #select1 {
+  width: 60px;
+  height: 40px;
+  margin: 12px;
+  border-radius: 15px;
+  display: block;
 }
 
 .right {

@@ -54,6 +54,14 @@ body{
             border-radius: 15px;
            
         }
+        option{
+            width: 350px;
+            height: 40px;
+            margin: 12px;
+            border-radius: 15px;
+           
+        }
+       
         p{
             display: inline;
             font-size: 12px;
@@ -101,8 +109,24 @@ body{
         }
         .placeholder{
             padding-inline-start: 8px;
+            
         }
-      
+      #select{
+        width: 360px;
+        height: 40px;
+        margin: 12px;
+        border-radius: 15px;
+        display: block;
+
+      }
+      #select1{
+        width: 60px;
+        height: 40px;
+        margin: 12px;
+        border-radius: 15px;
+        display: block;
+
+      }
     }
 }
 
